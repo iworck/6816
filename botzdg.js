@@ -359,7 +359,7 @@ client.on('message', async msg => {
 	}
 
 	else if (msg.body !== null || msg.body === "0" || msg.type !== 'ciphertext') {
-    msg.reply("😁 Olá, tudo bem? Como vai você? Escolha uma das opções abaixo para iniciarmos a nossa conversa: \r\n\r\n*1*- Quero saber mais sobre o método ZDG. \r\n*2*- Gostaria de conhecer alguns estudos de caso. \r\n*3*- O que vou receber entrando para a turma da ZDG? \r\n*4*- Gostaria de falar com o Pedrinho, mas obrigado por tentar me ajudar. \r\n*5*- Quero aprender como montar minha API de WhatsApp de GRAÇA.\r\n*6*- Quero conhecer todo o conteúdo programático da Comunidade ZDG. \r\n*7*- In *ENGLISH* please! \r\n*14*- En *ESPAÑOL* por favor.");
+    msg.reply("😁 Olá, bem vindo ao Banco do Brasil - Ag. Candeias do Jamari/RO, para darmos continuidade escolha uma das opções a seguir: \r\n\r\n*1*- Atendimento PF - Pessoa Física \r\n*2*- Atendimento PR - Produtor Rural. \r\n*3*- Atendimento PJ - Pessoa Jurídica. \r\n*4*- Gostaria de falar com o Pedrinho, mas obrigado por tentar me ajudar. \r\n*5*- Quero aprender como montar minha API de WhatsApp de GRAÇA.\r\n*6*- Quero conhecer todo o conteúdo programático da Comunidade ZDG. \r\n*7*- In *ENGLISH* please! \r\n*14*- En *ESPAÑOL* por favor.");
 	}
 });
 
